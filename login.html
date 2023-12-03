@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Styling Example</title>
+<style>
+  /* Apply styles to the form container */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  /* Center the form on the page */
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #888888;
+  }
+
+  /* Style input fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Style the login button */
+  button {
+    width: 100%;
+    background-color: #0074D9;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Style the login button on hover */
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+<form action="login" method="post">
+  Enter Id:<input type="number" name="id" placeholder="ID">
+  <br>
+  Enter PassWord:<input type="password" name="password" placeholder="Password">
+  <br>
+  <button>Login</button>
+</form>
+</body>
+</html>
+
